@@ -1,0 +1,18 @@
+#dame dia del mes de nacimiento 
+dia=int(input("Dime el día de tu nacimiento: "))
+#dame mes en que naciste 
+mes=int(input("Dime el mes de tu nacimiento: "))
+#dame año en que naciste 
+año=int(input("Dime el año de tu nacimiento: "))
+
+if mes==1:
+    mes =mes+12
+elif mes==2:
+    mes =mes+12
+elif
+primera_operacion=((6 + 1) * 3) / 5
+
+
+
+
+
