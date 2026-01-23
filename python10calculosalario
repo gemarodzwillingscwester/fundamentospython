@@ -1,0 +1,26 @@
+horas_semanales=int(input("INTRODUZCA HORAS SEMANALES     "))
+
+
+imposrte_hora=int(input("INTRODUZCA IMPORTE HORA    "))
+
+Kilometros=int(input("INTRODUZCA KILOMETROS"))
+print("")
+
+if (horas_semanales<36):
+   salario_base= horas_semanales*importe_hora
+   print()
+
+elif(horas_semanales>=36):
+   salario_base=horas_semanales*importe_hora
+   salario_horas_extras=(horas_semanales-36)*importe_hora*1.5
+
+
+
+
+
+
+total_horas_normales= importe_hora*
+
+
+
+                   
