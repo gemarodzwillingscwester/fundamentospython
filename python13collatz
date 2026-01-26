@@ -1,0 +1,10 @@
+contador=int(input)
+while contador!=1:
+    if (contador%2==0):
+        contador=contador/2
+
+    else:
+        contador=(contador*3)+1
+
+       
+       

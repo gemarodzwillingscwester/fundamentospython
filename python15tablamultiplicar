@@ -1,0 +1,9 @@
+numero=input("dame numero")
+
+
+resultado = numero * 2
+print(resultado)
+
+for i in (1,11):
+   resultado = numero * i
+   print(resultado)
