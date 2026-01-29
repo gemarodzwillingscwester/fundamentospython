@@ -1,0 +1,3 @@
+import libreria24validaciones
+print("main de validaciones")
+libreria24validaciones.validarisb
