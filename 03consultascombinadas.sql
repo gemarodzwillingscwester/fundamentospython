@@ -1,0 +1,31 @@
+select * from DEPT;
+select EMP.APELLIDO, EMP.OFICIO
+, DEPT.DNOMBRE, DEPT.LOC
+from EMP 
+inner join DEPT
+on EMP.DEPT_NO = EMP.DEPT_NO
+where DEPT.LOC='SEVILLA';
+
+select DOCTOR.APELLIDO, DOCTOR.ESPECIALIDAD,
+HOSPITAL.NOMBRE,HOSPITAL.DIRECCION
+from DOCTOR
+inner join HOSPITAL
+on DOCTOR.HOSPITAL_COD = DOCTOR.HOSPITAL_COD;
+
+select count(*) as PERSONAS, DEPT.DNOMBRE
+from EMP
+inner join DEPT
+on EMP.DEPT_NO = DEPT.DEPT_NO
+group by DEPT.DNOMBRE;
+
+select distinct DEPT_NO from EMP;
+select * from DEPT;
+
+select EMP.APELLIDO,EMP.OFICIO
+,DEPT.DNOMBRE,DEPT.LOC
+from EMP
+inner join DEPT
+on EMP.DEPT_NO = DEPT.DEPT_NO;
+
+
+select(*)from plantilla;
