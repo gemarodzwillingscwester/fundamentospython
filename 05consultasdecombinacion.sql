@@ -12,4 +12,3 @@ from HOSPITAL
 inner join SALA
 on HOSPITAL.HOSPITAL_COD = SALA.HOSPITAL_COD;
 
-select count() as 
