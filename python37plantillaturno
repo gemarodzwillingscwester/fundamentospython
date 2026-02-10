@@ -1,0 +1,4 @@
+import oracledb 
+
+connection = oracledb.connect(user="system",password="oracle",dsn="localhost/FREEPDB1")
+
